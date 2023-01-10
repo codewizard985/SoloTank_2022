@@ -38,11 +38,11 @@ public class TankController : BaseController
 
         if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Z)) && (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)))
         {
-            transform.Translate(0f, 0f, speed * Time.deltaTime);
+            transform.Translate(0f, 0f, speed * Time.deltaTime); 
         }
         else
         {
-            transform.Translate(0f, 0f, -speed * Time.deltaTime);
+            transform.Translate(0f, 0f, -speed * Time.deltaTime); 
         }
     }
 }
